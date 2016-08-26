@@ -186,7 +186,7 @@ define([], function() {
             //     value: 'gladAlerts',
             //     checked: false
             }, {
-                label: 'Gran Chaco deforestation',
+                label: 'Gran Chaco deforestation (Guyra Paraguay)',
                 value: 'guyraAlerts',
                 checked: false
             }
