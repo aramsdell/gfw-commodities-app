@@ -63,7 +63,7 @@
         }, // End dojoConfig
         src = [
             // 'http://js.arcgis.com/3.16/',
-            'app/libs/esri/dojo/dojo.js',
+            'app/libs/esriBuild/dojo/dojo.js',
             'app/libs/jquery-1.7.1.min.js',
             // 'app/libs/moment/min/moment.min.js',
             'app/libs/kalendae/build/kalendae.standalone.js',
@@ -77,11 +77,11 @@
             src: 'app/css/app.css',
             cdn: false
         }, {
-            src: 'app/libs/esri/esri/css/esri.css', //'https://js.arcgis.com/3.16/esri/css/esri.css',
+            src: 'app/libs/esriBuild/esri/css/esri.css', //'https://js.arcgis.com/3.16/esri/css/esri.css',
             cdn: false//true
-        }, {
-            src: 'https://js.arcgis.com/3.16/dijit/themes/tundra/tundra.css',
-            cdn: true
+        // }, {
+        //     src: 'https://js.arcgis.com/3.16/dijit/themes/tundra/tundra.css',
+        //     cdn: true
         }];
 
     var loadScript = function(src, async) {
